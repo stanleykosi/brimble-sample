@@ -2,7 +2,7 @@
   "name": "brimble-sample",
   "private": true,
   "version": "0.1.0",
-  "description": "Deterministic Brimble sample for archive and Git deployment demos",
+  "description": "Deterministic Brimble infra probe for archive and Git deployment demos",
   "engines": {
     "node": "20.x"
   },
