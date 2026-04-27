@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "provider": "node",
+  "packages": {
+    "node": "20.20.2"
+  },
+  "steps": {
+    "install": {
+      "commands": ["npm install"]
+    },
+    "build": {
+      "inputs": [{ "step": "install" }],
+      "commands": ["npm run build"]
+    }
+  },
+  "deploy": {
+    "startCommand": "npm run start"
+  }
+}
